@@ -1,4 +1,4 @@
-// ㊋ █▓▓▓▓▓▓▓▓▓█ STARTING JAVASCRIPT █▓▓▓▓▓▓▓▓▓█ ㊋
+// ㊋ █▒▒▒▒▒▒▒▒▒█ STARTING JAVASCRIPT █▒▒▒▒▒▒▒▒▒█ ㊋
 const loadData = () => {
   const searchField = document.getElementById("searchField"); // Selecting Search Input By DOM
   const searchText = searchField.value; // Take the value from Search Input
