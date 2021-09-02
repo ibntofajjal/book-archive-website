@@ -32,7 +32,7 @@ const displayBooks = (books) => {
     displySearchResult.textContent = "";
     const div = document.createElement("div");
     div.classList.add("h2");
-    div.innerHTML = `Ressult Found <h3>${showResult}</h3> `;
+    div.innerHTML = `Result Found <h3>${showResult}</h3> `;
     displySearchResult.appendChild(div);
   }
 
