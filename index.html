@@ -9,9 +9,23 @@
         content="Simple API Project Design and Develope by Joynal Bin Tofajjal | Programming Hero">
     <title>Book Archive</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="container py-5 px-3 bg-dark text-white">
+    <h1 class="text-center text-warning fw-bold display-5">Find The Book You Love</h1>
+    <div class="row w-100 mx-auto mt-4 mb-5">
+        <input type="text" id="searchField" placeholder="Find The Book You Love"
+            class="col-12 col-sm-10 bg-transparent text-white py-2 border border-warning rounded-start">
+        <input type="button" value="Search" onclick="loadData()"
+            class="col-12 col-sm-2 fs-5 fw-bold py-2 bg-warning border border-warning rounded-end">
+    </div>
+
+    <!-- Book Container -->
+    <div id="booksContainer" class="position-relative row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4"></div>
+
 
 
     <!-- JavaScript -->
