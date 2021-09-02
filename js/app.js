@@ -8,7 +8,7 @@ const loadData = () => {
     .then((res) => res.json())
     .then((data) => displayBooks(data.docs));
 };
-//  █▒▒▒▒▒▒▒▒▒ DISPLAYING RESULS ▒▒▒▒▒▒▒▒▒█
+//  █▒▒▒▒▒▒▒▒▒▶ DISPLAYING RESULS ◀▒▒▒▒▒▒▒▒▒█
 const displayBooks = (books) => {
   // console.log(books);
   const booksContainer = document.getElementById("booksContainer");
